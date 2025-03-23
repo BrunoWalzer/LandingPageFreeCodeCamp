@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page Project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css"/>
+  </head>
+  <body>
+    <header id="header">
+      <img id="header-img" class="header-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDMKtO6fU4LYnRso0FASMb200NJu4efs6XDw&s" />
+      <div class="title-header"><h2>Planos médicos particulares</h2></div>
+      <nav id="nav-bar" class="nav-bar">
+        <i class="fa-solid fa-desktop"></i><a class="nav-link" href="#apresentacao">Apresentação</a>
+        <i class="fa-brands fa-youtube"></i><a class="nav-link" href="#video">Vídeo</a> 
+        <i class="fa-solid fa-file"></i><a class="nav-link" href="#planos">Planos</a>
+      </nav>
+    </header>
+    <main>
+        <section class="apresentacao" id="apresentacao">
+          <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <p class="primeiramao">Quer saber das novidades em primeira mão?</p>
+            <p class="email">Digite seu email abaixo para receber mais informações:</p>
+            <input id="email" name="email" class="email" type="email" placeholder="Email" />
+            <input type="submit" id="submit" class="submitbutton" />
+          </form>
+        </section>
+        <section class="container">
+          <p>Saiba mais assistindo o vídeo abaixo:</p>
+
+          <iframe id="video" width="400" height="225" 
+            src="https://www.youtube.com/embed/GZJhwSoloQU" 
+            allowfullscreen>
+          </iframe>
+        </section>
+        <section class="planos" id="planos">
+            <div class="box1">
+                <h2>Basic</h2>
+                <p class="note">*Individual*</p>
+                <hr/>
+                <p class="descricaoplano">Com este plano, você terá acesso a benefícios como exames gratuítos e atendimento gratuíto apenas na sua clínica registrada.</p>
+                <hr/>
+                <h1 class="precos">R$89,90</h1>
+                <p class="descricaopreco">*Mensal*</p>
+                <input type="submit" id="compraragora" name="compraragora" value="Assinar"/>
+            </div>
+            <div class="box2">
+                <h2>Basic +</h2>
+                <p class="note">*Individual*</p>
+                <hr/>
+                <p class="descricaoplano">Com este plano, você terá acesso a benefícios como exames gratuítos e atendimento gratuíto em qualquer clínica registrada.</p>
+                <hr/>
+                <h1 class="precos">R$129,90</h1>
+                <p class="descricaopreco">*Mensal*</p>
+                <input type="submit" id="compraragora" name="compraragora" value="Assinar"/>
+            </div>
+            <div class="box3">
+                <h2>Premium</h2>
+                <p class="note">*Coletivo*</p>
+                <hr/>
+                <p class="descricaoplano">Pode ser utilizado tanto pela família quanto por uma empresa. Exames e atendimento gratuítos em qualquer clínica registrada.</p>
+                <hr/>
+                <h1 class="precos">R$299,90</h1>
+                <p class="descricaopreco">*Mensal*</p>
+                <input type="submit" id="compraragora" name="compraragora" value="Assinar"/>
+            </div>
+        </section>
+        <section class="missao" id="missao">
+            <div class="container2">
+                <h1>Qual é a nossa missão?</h1>
+                <hr/>
+                <p>Nossa missão é proporcionar acesso a cuidados de saúde de qualidade, garantindo segurança, tranquilidade e bem-estar para você e sua família.
+                Acreditamos que a saúde é um direito fundamental, e trabalhamos incansavelmente para oferecer planos acessíveis, com ampla cobertura e
+                atendimento humanizado. Nosso compromisso é cuidar de você em todos os momentos, com transparência, inovação e uma rede de profissionais capacitados,
+                sempre prontos para oferecer o melhor suporte. Porque sua saúde é a nossa prioridade!.</p>
+            </div>
+        </section>
+        <section class="duvidas" id="duvidas">
+            <div class="container3">
+                <h1>Está com dúvidas sobre os planos?</h1>
+                <p>Digite sua dúvida abaixo e em breve responderemos por email.</p>
+                <textarea id="duvida" rows="6" cols="60" placeholder=" Digite sua dúvida aqui!"></textarea>
+            </div>
+        </section>
+        <section class="referencias">
+            <div class="container4">
+                <p>Developed by: Bruno Walzer        ||          For: freeCodeCamp Project</p>
+            </div>
+        </section>
+    </main>
+  </body>
+</html>
